@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+#navbarSupportedContent {
+  font-family: "azure";
+}
+
+#content {
+  text-align: center;
+}
+
+.navbar_navbar-expand-lg_bg-body-tertiary {
+  background-color: white;
+  height: 42px;
+}
+.navbar_navbar-expand-lg_bg-body-tertiary::before {
+  position: relative;
+  content: "";
+}
+
+.navbar_navbar-expand-lg_bg-body-tertiary a {
+  color: rgb(247, 244, 244);
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 2px 2px 2px red;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  transition: all 5s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card {
+  width: 500px;
+}
+.d-flex.form-control_me-2 {
+  background-color: rgb(201, 16, 16);
+}
+#platstoreicon {
+  width: 200px;
+}
+#appstoreicon {
+  width: 177px;
+}
+#footerhehe {
+  background-color: #d1291c;
+  padding-top: 150px;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 150px;
+}
+footer {
+  margin-top: 20px;
+  background-color: #212529;
+}
+.footer-panel {
+  background-color: #212529;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-panel {
+  background-color: #050606;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-panel {
+  margin-top: 1px;
+}
+
+.foot-panel a {
+  display: block;
+  font-size: 0.85rem;
+  margin: 10px;
+  color: #dddddd;
+}
+.foot-panel a {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.foot-panel p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.foot-panel2 {
+  background-color: #212529;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("amazon_logo\ \(1\).png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.foot-panel3 {
+  background-color: #0f1111;
+  color: white;
+}
+.pages {
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.copyright {
+  padding-top: 5px;
+  font-size: 10px;
+  margin-left: 38%;
+  text-align: justify;
+}
